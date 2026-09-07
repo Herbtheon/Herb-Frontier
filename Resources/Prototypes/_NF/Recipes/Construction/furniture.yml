@@ -861,3 +861,13 @@
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: true
+
+- type: construction
+  id: NFSDFlag
+  graph: NF_Flags
+  startNode: start
+  targetNode: NFSDFlag
+  category: construction-category-flags
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: true

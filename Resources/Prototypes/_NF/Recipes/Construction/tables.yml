@@ -9,3 +9,63 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
+
+- type: construction
+  id: TableFolding
+  graph: TableFoldingGraph
+  startNode: start
+  targetNode: TableFolding
+  category: construction-category-furniture
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: TableReinforcedUraniumGlass
+  graph: Table
+  startNode: start
+  targetNode: TableReinforcedUraniumGlass
+  category: construction-category-furniture
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: TableReinforcedPlasmaGlass
+  graph: Table
+  startNode: start
+  targetNode: TableReinforcedPlasmaGlass
+  category: construction-category-furniture
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: TableUraniumGlass
+  graph: Table
+  startNode: start
+  targetNode: TableUraniumGlass
+  category: construction-category-furniture
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: TableClockworkGlass
+  graph: Table
+  startNode: start
+  targetNode: TableClockworkGlass
+  category: construction-category-furniture
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

@@ -492,6 +492,11 @@
       map: ["base"]
   - type: Item
     heldPrefix: cglass
+  # Frontier : Placable Clockwork glass
+  - type: FloorTile
+    outputs:
+    - FloorCGlass
+  # End Frontier
   - type: Construction
     graph: Glass
     node: SheetClockworkGlass

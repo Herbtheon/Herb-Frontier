@@ -12,19 +12,6 @@
     node: BannerSecurityNode
 
 - type: entity
-  id: FlagNfsd
-  parent: BannerBase
-  name: NFSD flag
-  description: A flag displaying the colors of the New Frontier Sheriff's Department.
-  components:
-  - type: Sprite
-    sprite: _NF/Structures/Decoration/banner.rsi
-    state: nfsd-flag
-  - type: Construction
-    graph: BannersGraph
-    node: BannerSecurityNode
-
-- type: entity
   id: BannerGoblin01
   parent: BannerBase
   name: goblin banner

@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-NC-SA-4.0",
-    "copyright": "Content created by GhostPrince for Frontier Server",
+    "copyright": "Wooden Fancy Chairs created by GhostPrince for Frontier Server; chairs of bar, stool, and wooden modified by Herbtheon (Github/Discord) from tgstation.",
     "size": {
       "x": 32,
       "y": 32
@@ -41,6 +41,46 @@
       },
       {
         "name": "wooden_fancy-white",
+        "directions": 4
+      },
+      {
+        "name": "bar-base",
+        "directions": 4
+      },
+      {
+        "name": "bar-cover",
+        "directions": 4
+      },
+      {
+        "name": "bar-knocked-base",
+        "directions": 4
+      },
+      {
+        "name": "bar-knocked-cover",
+        "directions": 4
+      },
+      {
+        "name": "stool-base",
+        "directions": 4
+      },
+      {
+        "name": "stool-cover",
+        "directions": 4
+      },
+      {
+        "name": "stool-knocked-base",
+        "directions": 4
+      },
+      {
+        "name": "stool-knocked-cover",
+        "directions": 4
+      },
+      {
+        "name": "wooden-base",
+        "directions": 4
+      },
+      {
+        "name": "wooden-cover",
         "directions": 4
       }
     ]

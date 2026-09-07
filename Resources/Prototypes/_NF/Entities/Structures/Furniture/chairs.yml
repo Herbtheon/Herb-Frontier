@@ -118,3 +118,86 @@
     state: wooden_fancy-white
   - type: Construction
     node: chairWoodFancyWhite
+
+- type: entity
+  id: StoolColor
+  suffix: Colorful
+  parent: Stool
+  description: Apply butt to color.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Furniture/chairs.rsi
+    layers:
+    - state: stool-base
+    - state: stool-cover
+      map: [ "enum.DamageStateVisualLayers.Base" ]
+  - type: RandomSprite
+    available:
+      - enum.DamageStateVisualLayers.Base:
+          stool-cover: Rainbow
+
+- type: entity
+  id: StoolBarColor
+  suffix: Colorful
+  parent: Stool
+  description: You sit in this wonderful color. Either by will or force.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Furniture/chairs.rsi
+    layers:
+    - state: bar-base
+    - state: bar-cover
+      map: [ "enum.DamageStateVisualLayers.Base" ]
+  - type: RandomSprite
+    available:
+      - enum.DamageStateVisualLayers.Base:
+          bar-cover: Rainbow
+
+- type: entity
+  name: wooden chair
+  id: ChairWoodColor
+  suffix: Colorful
+  parent: UnanchoredChairBase
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Furniture/chairs.rsi
+    layers:
+    - state: wooden-base
+    - state: wooden-cover
+      map: [ "enum.DamageStateVisualLayers.Base" ]
+  - type: RandomSprite
+    available:
+      - enum.DamageStateVisualLayers.Base:
+          wooden-cover: Rainbow
+  - type: Damageable
+    damageModifierSet: Wood
+  - type: Destructible
+    thresholds:
+    - trigger: # Excess damage, don't spawn entities
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 25
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialWoodPlank:
+            min: 1
+            max: 1
+  - type: Tag
+    tags:
+    - Wooden
+  - type: StaticPrice
+    price: 75

@@ -376,3 +376,21 @@
     collection: FootstepTile
   itemDrop: SheetRUGlass1
   heatCapacity: 10000
+
+- type: tile
+  id: FloorCGlass
+  name: tiles-clockwork-glass-floor
+  sprite: /Textures/_NF/Tiles/glass-clockwork.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: SheetClockworkGlass1
+  heatCapacity: 10000
