@@ -10082,3 +10082,10 @@ Entries:
   id: 6855
   time: '2026-09-10T21:45:58.0000000+00:00'
   url: https://github.com/new-frontiers-14/frontier-station-14/pull/4677
+- author: SemperVictor
+  changes:
+    - type: Fix
+      message: Made chem shelf in brigmed openable by Brigmeds.
+  id: 6856
+  time: '2026-09-11T12:38:33.0000000+00:00'
+  url: https://github.com/new-frontiers-14/frontier-station-14/pull/4757
