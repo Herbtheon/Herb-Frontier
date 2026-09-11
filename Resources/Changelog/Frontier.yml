@@ -10107,3 +10107,12 @@ Entries:
   id: 6858
   time: '2026-09-11T17:34:39.0000000+00:00'
   url: https://github.com/new-frontiers-14/frontier-station-14/pull/4721
+- author: Bartholemew-Dingleberry
+  changes:
+    - type: Tweak
+      message: >-
+        The NT Vagabond has been overhauled, allowing far easier cargo storage
+        and salvage.
+  id: 6859
+  time: '2026-09-11T19:59:50.0000000+00:00'
+  url: https://github.com/new-frontiers-14/frontier-station-14/pull/4457
