@@ -10089,3 +10089,12 @@ Entries:
   id: 6856
   time: '2026-09-11T12:38:33.0000000+00:00'
   url: https://github.com/new-frontiers-14/frontier-station-14/pull/4757
+- author: RogueVoidling
+  changes:
+    - type: Add
+      message: >-
+        Frontier Outpost now has a second staff shipyard to lessen confused
+        staff not knowing where it is.
+  id: 6857
+  time: '2026-09-11T12:51:24.0000000+00:00'
+  url: https://github.com/new-frontiers-14/frontier-station-14/pull/4753
