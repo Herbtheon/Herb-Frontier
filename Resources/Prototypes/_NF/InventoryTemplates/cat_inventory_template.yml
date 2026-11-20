@@ -24,6 +24,18 @@
       components:
         - CatWearable
 
+  - name: eyes
+    slotTexture: glasses
+    slotFlags: EYES
+    uiWindowPos: 0,1
+    strippingWindowPos: 0,1
+    displayName: Eyes
+    whitelist:
+      tags:
+        - PetWearable
+      components:
+        - CatWearable
+
   - name: suitstorage
     slotTexture: suit_storage
     slotFlags: SUITSTORAGE

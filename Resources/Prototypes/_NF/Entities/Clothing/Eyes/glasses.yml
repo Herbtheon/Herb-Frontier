@@ -12,6 +12,7 @@
   - type: EyeProtection
   - type: VisionCorrection
   - type: IdentityBlocker
+  - type: CatWearable
 
 - type: entity
   parent: ClothingEyesBase
@@ -25,6 +26,7 @@
     sprite: _NF/Clothing/Eyes/Glasses/pilot.rsi
   - type: HandheldGPS
   - type: VisionCorrection
+  - type: CatWearable
 
 - type: entity
   parent: ClothingEyesGlassesSecurity
@@ -37,6 +39,7 @@
   - type: Clothing
     sprite: _NF/Clothing/Eyes/Glasses/nfsd_glasses.rsi
   - type: VisionCorrection
+  - type: CatWearable
 
 - type: entity
   parent: [ClothingEyesGlassesNfsd, ClothingEyesHudMedical]
@@ -48,6 +51,7 @@
     sprite: _NF/Clothing/Eyes/Glasses/brigmed_glasses.rsi
   - type: Clothing
     sprite: _NF/Clothing/Eyes/Glasses/brigmed_glasses.rsi
+  - type: CatWearable
 
 - type: entity
   parent: [ClothingEyesGlassesMeson, BaseCommandContraband]
@@ -69,6 +73,7 @@
   - type: ToggleClothing
     action: ActionToggleTray
   - type: TrayScanner
+  - type: CatWearable
 
 - type: entity
   parent: [ClothingEyesBase]
@@ -89,3 +94,4 @@
   - type: ToggleClothing
     action: ActionToggleTray
   - type: TrayScanner
+  - type: CatWearable
