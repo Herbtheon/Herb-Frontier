@@ -15,6 +15,7 @@
     graph: Blindfold
     node: blindfold
   - type: FlashImmunity
+  - type: CatWearable
 
 - type: entity
   parent: ClothingHeadEyeBaseFlippable
@@ -28,6 +29,7 @@
     sprite: Clothing/Eyes/Misc/eyepatch.rsi
   - type: EyeProtection
     protectionTime: 5
+  - type: CatWearable
 
 - type: entity
   parent: [ClothingEyesEyepatch, ClothingHeadEyeBaseFlipped]

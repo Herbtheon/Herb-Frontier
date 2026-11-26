@@ -13,6 +13,7 @@
     damage:
       types:
         Blunt: 7
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: ClothingEyesBase
@@ -32,6 +33,7 @@
     damage:
       types:
         Blunt: 10
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: ClothingEyesBase
@@ -51,6 +53,7 @@
     damage:
       types:
         Blunt: 10
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: ClothingEyesBase # Frontier: removed BaseEngineeringContraband
@@ -71,6 +74,7 @@
     tags:
     - PetWearable
     - WhitelistChameleon
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: ClothingEyesBase
@@ -87,6 +91,7 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: ClothingEyesBase
@@ -101,6 +106,7 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: ClothingEyesBase
@@ -117,6 +123,7 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: ClothingEyesBase
@@ -132,6 +139,7 @@
   - type: IdentityBlocker
   - type: StaticPrice
     price: 500
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: ClothingEyesBase
@@ -150,6 +158,7 @@
     - WhitelistChameleon
   - type: IdentityBlocker
     coverage: EYES
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: ClothingEyesGlassesCheapSunglasses
@@ -166,6 +175,7 @@
     - PetWearable
     - HamsterWearable
     - WhitelistChameleon
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
@@ -194,6 +204,7 @@
     # - Antagonists # Frontier: guidebook entry removed
   - type: IdentityBlocker
     coverage: EYES
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: [ClothingEyesBase, BaseCommandContraband ]
@@ -216,6 +227,7 @@
   - type: IdentityBlocker
     coverage: EYES
   - type: ShowJobIcons
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: ClothingEyesBase
@@ -232,6 +244,7 @@
     protectionTime: 5
   - type: IdentityBlocker
     coverage: EYES
+  - type: CatWearable # Frontier
 
 #Make a scanner category when these actually function and we get the trayson
 - type: entity
@@ -252,6 +265,7 @@
   - type: IdentityBlocker
     coverage: EYES
   - type: ThermalSight
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: ClothingEyesBase
@@ -270,6 +284,7 @@
       tags:
       - PetWearable
       - WhitelistChameleon
+    - type: CatWearable # Frontier
 
 - type: entity
   parent: [ClothingEyesBase, BaseC3Contraband, ContrabandClothing] # Frontier: BaseMajorContraband<BaseC3Contraband added ContrabandClothing as parent
@@ -282,6 +297,7 @@
   - type: Clothing
     sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
   - type: FlashImmunity
+  - type: CatWearable # Frontier
 
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
@@ -303,3 +319,4 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
+  - type: CatWearable # Frontier
